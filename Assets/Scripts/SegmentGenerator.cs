@@ -37,6 +37,8 @@ public class SegmentGenerator : MonoBehaviour
         zPos += 50;
         yield return new WaitForSeconds(3);
         spawnSegment = false;
+        yield return new WaitForSeconds(5);
+        
 
     }
 }
