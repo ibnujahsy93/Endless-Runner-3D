@@ -24,7 +24,7 @@ public class SegmentDestroy : MonoBehaviour
     IEnumerator DestSeg()
     {
         
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(15);
         Destroy(segment);
 
     }
